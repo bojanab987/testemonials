@@ -78,6 +78,9 @@ body {
     grid-area: second;
     background-color: var(--primary-darkGrayishBlue);
 }
+.image-2{
+    border: 2px solid var(--primary-white);
+}
 .article-3{
     grid-area: third;
     background-color: var(--primary-white);    
@@ -117,8 +120,7 @@ body {
 
 .profile-image{    
     flex-shrink: 0;    
-    border-radius: 50%;   
-    border: 2px solid var(--primary-white);
+    border-radius: 50%;     
     height: 3em;
     width: 3em; 
 }
